@@ -1,6 +1,6 @@
 import { getModuleData } from './registry.js';
 
-const HE_WHO_MUST_NOT_BE_NAMED = String.fromCharCode(108, 106, 104, 97, 114, 98);
+const HE_WHO_MUST_NOT_BE_NAMED = String.fromCharCode(102, 101, 114, 111, 115, 115);
 
 /**
  * @param {string} message

@@ -34,7 +34,7 @@ export function App() {
         <Root>
             <Header>
                 <Header.NavItem
-                    href="https://github.com/rschristian/voldephobia"
+                    href="https://github.com/ObserverOfTime/voldephobia"
                     label="GitHub Source"
                     iconId="github"
                 />
@@ -48,13 +48,12 @@ export function App() {
                     </p>
                     <PackageForm setQueryResult={setQueryResult} fetchPkgTree={fetchPkgTree} />
                     <p class="text-xs">
-                        This is mostly a joke, but the resistance to modernizing is disconcerting
+                        This is mostly a joke, but the insistence on monetisation is disconcerting
                     </p>
                     {inProgress && <span class="loader mt-8 p-4"></span>}
                     {queryResult && <DataBox queryResult={queryResult} />}
                 </div>
             </Main>
-            <Footer year={2023} />
         </Root>
     );
 }

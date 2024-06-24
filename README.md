@@ -12,7 +12,7 @@
 
 ## Basic Usage
 
-Navigate to <a href="https://voldephobia.rschristian.dev">voldephobia.rschristian.dev</a>, input a package query (can be a bare package name or name@version), and view the resulting data tree. With this, you can see which modules are poisoned and why they're included.
+Navigate to https://observeroftime.github.io/voldephobia/, input a package query (can be a bare package name or name@version), and view the resulting data tree. With this, you can see which modules are poisoned and why they're included.
 
 ## Acknowledgements
 
@@ -20,4 +20,4 @@ Much of the registry/module graph code was adopted from [`npmgraph`](https://git
 
 ## License
 
-[MIT](https://github.com/rschristian/voldephobia/blob/master/LICENSE)
+[MIT](https://github.com/ObserverOfTime/voldephobia/blob/master/LICENSE)
